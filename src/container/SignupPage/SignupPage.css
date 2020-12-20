@@ -1,0 +1,30 @@
+.signupForm {
+    max-width: 30rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    margin: 6.5rem auto;
+    padding: 1.5rem;
+    margin-left:25rem;
+  }
+  
+  .signupForm h1 {
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .signup-button {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    background: #8675a9;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    font: inherit;
+  }
+  
+  .signup-button:disabled {
+    background: #eee;
+    color: #999;
+    box-shadow: none;
+  }
+  

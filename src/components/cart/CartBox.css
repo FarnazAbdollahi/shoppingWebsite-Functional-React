@@ -1,0 +1,72 @@
+.cart-list {
+    list-style: none;
+    padding: 0rem;
+    margin: 0.5rem;
+    direction: rtl;
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  .close-btn {
+    color: #fff;
+    position: absolute;
+    height: auto;
+    top: 1.2rem;
+    cursor: pointer;
+    right: 2rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    background:#000;
+    outline: none;
+  }
+.update-cart {
+    display: inline-block !important;
+    top: 0.5rem;;
+    left:0;
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 50px;
+
+} 
+
+.cart-footer, .cart-footer a {  
+    font: inherit;
+    bottom: 4rem;
+    border-top: 1px solid #fff !important;
+    background: #fff;
+    width: 100%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.purchase-handler {
+    border-top: 1px solid #000000;
+    cursor: pointer;
+    padding: 1rem 0;
+    margin: 0;
+    
+}
+.purchase-handler:hover, .purchase-handler:active {
+    background:#000;
+    color:#fff;
+}
+h3 {
+    text-align: center;
+}
